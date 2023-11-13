@@ -23,8 +23,8 @@ latency.awk access.log
 ```
 
 Output is a heat map, by default written to stadout as
-[Sixel](https://en.wikipedia.org/wiki/Sixel) escape codes.  A
-commonly used terminal, iTerm2.app suuportsw this pout of the box.
+[Sixel](https://en.wikipedia.org/wiki/Sixel) escape codes.  A commonly
+used terminal, iTerm2.app suuportsw this out of the box.
 
 
 Example
@@ -32,3 +32,10 @@ Example
 
 ![example](example.png)
 
+
+Improvement Points
+---
+
+* Use a proper logarithmic scale for bucketing latencies.
+* Make it easier to use a different output format.
+* etc.
