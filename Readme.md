@@ -22,9 +22,9 @@ Invocation
 latency.awk access.log
 ```
 
-Output is a heat map, by default written to stadout as
+Output is a heat map, by default written to stdout as
 [Sixel](https://en.wikipedia.org/wiki/Sixel) escape codes.  A commonly
-used terminal, iTerm2.app suuportsw this out of the box.
+used terminal, iTerm2.app supports this out of the box.
 
 
 Example
